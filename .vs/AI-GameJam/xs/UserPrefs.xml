@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{DD3CE731-0C3D-FC67-E3BA-A183A64E47A4}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ScriptsS/TimeTravelButton.cs">
+    <Files>
+      <File FileName="Assets/ScriptsS/RobotAnswer.cs" Line="88" Column="6" />
+      <File FileName="Assets/ScriptsS/NewBehaviourScript.cs" Line="27" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AI-GameJam" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="ScriptsS" expanded="True">
+                <Node name="TimeTravelButton.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="6ad2ca2c-55e7-4e17-9cf3-1d694d3936aa" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
