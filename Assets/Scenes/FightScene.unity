@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657844, g: 0.49641222, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -239,15 +239,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: e5295c851e2ba495e9027387b7043afb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -18.63
+      value: -18.629997
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5295c851e2ba495e9027387b7043afb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5700002
+      value: 1.5699983
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5295c851e2ba495e9027387b7043afb, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -4.84
+      value: -4.8399997
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5295c851e2ba495e9027387b7043afb, type: 3}
       propertyPath: m_LocalRotation.w
@@ -255,7 +255,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5295c851e2ba495e9027387b7043afb, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5295c851e2ba495e9027387b7043afb, type: 3}
       propertyPath: m_LocalRotation.y
@@ -263,7 +263,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5295c851e2ba495e9027387b7043afb, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e5295c851e2ba495e9027387b7043afb, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -516,7 +516,7 @@ Animator:
   m_GameObject: {fileID: 1156934324}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: bc1c2362a5e6541718c4e284325645ee, type: 2}
+  m_Controller: {fileID: 9100000, guid: f0209808b97e1d542a937785095cf7f8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -602,6 +602,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 71cfba419606349c98d887e553620c13, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1988191202}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 71cfba419606349c98d887e553620c13, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1988191203}
   m_SourcePrefab: {fileID: 100100000, guid: 71cfba419606349c98d887e553620c13, type: 3}
 --- !u!1 &1314915151
 GameObject:
@@ -1030,7 +1033,7 @@ Animator:
   m_GameObject: {fileID: 1988191201}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 2f49a6225871e4f99a001e96ffea1a75, type: 2}
+  m_Controller: {fileID: 9100000, guid: 1087585537553b4438c24f95985e747e, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -1041,6 +1044,22 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1988191203
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988191201}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73d3dfe4ec7c1224d944be0eabf36b5a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  punchKeyCode: 120
+  blockKeyCode: 122
+  characterObj: {fileID: 1988191201}
+  isBlocking: 1
 --- !u!1 &1997503636
 GameObject:
   m_ObjectHideFlags: 0
