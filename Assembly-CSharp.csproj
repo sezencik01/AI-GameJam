@@ -65,6 +65,7 @@
     <Compile Include="Assets\Scripts\Quiz.cs" />
     <Compile Include="Assets\Scripts\GameManager.cs" />
     <Compile Include="Assets\Scripts\QuestionSO.cs" />
+    <Compile Include="Assets\ScriptsS\Health.cs" />
     <Compile Include="Assets\Scripts\Timer.cs" />
     <Compile Include="Assets\ScriptsS\TimeTravelButton.cs" />
   </ItemGroup>

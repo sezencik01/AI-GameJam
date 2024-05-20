@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\atcib\\OneDrive\\Masa\u00FCst\u00FC\\AI-GameJam\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{DD3CE731-0C3D-FC67-E3BA-A183A64E47A4}|Assembly-CSharp.csproj|c:\\users\\atcib\\onedrive\\masa\u00FCst\u00FC\\ai-gamejam\\assets\\scriptss\\healthchar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{DD3CE731-0C3D-FC67-E3BA-A183A64E47A4}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptss\\healthchar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{DD3CE731-0C3D-FC67-E3BA-A183A64E47A4}|Assembly-CSharp.csproj|c:\\users\\atcib\\onedrive\\masa\u00FCst\u00FC\\ai-gamejam\\assets\\scriptss\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DD3CE731-0C3D-FC67-E3BA-A183A64E47A4}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptss\\health.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{DD3CE731-0C3D-FC67-E3BA-A183A64E47A4}|Assembly-CSharp.csproj|C:\\Users\\atcib\\OneDrive\\Masa\u00FCst\u00FC\\AI-GameJam\\assets\\scriptss\\fightingchar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{DD3CE731-0C3D-FC67-E3BA-A183A64E47A4}|Assembly-CSharp.csproj|solutionrelative:assets\\scriptss\\fightingchar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\atcib\\OneDrive\\Masa\u00FCst\u00FC\\AI-GameJam\\Assets\\ScriptsS\\HealthChar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Assets\\ScriptsS\\HealthChar.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -35,15 +39,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Health.cs",
+              "DocumentMoniker": "C:\\Users\\atcib\\OneDrive\\Masa\u00FCst\u00FC\\AI-GameJam\\Assets\\ScriptsS\\Health.cs",
+              "RelativeDocumentMoniker": "Assets\\ScriptsS\\Health.cs",
+              "ToolTip": "C:\\Users\\atcib\\OneDrive\\Masa\u00FCst\u00FC\\AI-GameJam\\Assets\\ScriptsS\\Health.cs",
+              "RelativeToolTip": "Assets\\ScriptsS\\Health.cs",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAowCgAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-20T18:06:50.527Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "HealthChar.cs",
               "DocumentMoniker": "C:\\Users\\atcib\\OneDrive\\Masa\u00FCst\u00FC\\AI-GameJam\\Assets\\ScriptsS\\HealthChar.cs",
               "RelativeDocumentMoniker": "Assets\\ScriptsS\\HealthChar.cs",
               "ToolTip": "C:\\Users\\atcib\\OneDrive\\Masa\u00FCst\u00FC\\AI-GameJam\\Assets\\ScriptsS\\HealthChar.cs",
               "RelativeToolTip": "Assets\\ScriptsS\\HealthChar.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-20T17:02:59.631Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-20T17:02:59.631Z"
             },
             {
               "$type": "Document",
@@ -53,7 +68,7 @@
               "RelativeDocumentMoniker": "Assets\\ScriptsS\\FightingChar.cs",
               "ToolTip": "C:\\Users\\atcib\\OneDrive\\Masa\u00FCst\u00FC\\AI-GameJam\\Assets\\ScriptsS\\FightingChar.cs",
               "RelativeToolTip": "Assets\\ScriptsS\\FightingChar.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAA7AAAA",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wC4AAAA7AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-20T15:10:52.175Z"
             }

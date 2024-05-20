@@ -357,6 +357,7 @@
 "Assets/Scripts/Quiz.cs"
 "Assets/Scripts/Timer.cs"
 "Assets/ScriptsS/FightingChar.cs"
+"Assets/ScriptsS/Health.cs"
 "Assets/ScriptsS/RobotAnswer.cs"
 "Assets/ScriptsS/TimeTravelButton.cs"
 -langversion:9.0

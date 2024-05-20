@@ -288,6 +288,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5295c851e2ba495e9027387b7043afb, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1156934325}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5295c851e2ba495e9027387b7043afb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1156934329}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: e5295c851e2ba495e9027387b7043afb, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1156934328}
   m_SourcePrefab: {fileID: 100100000, guid: e5295c851e2ba495e9027387b7043afb, type: 3}
 --- !u!1 &581797577
 GameObject:
@@ -527,6 +533,72 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!136 &1156934328
+CapsuleCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156934324}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Radius: 0.2
+  m_Height: 1.5
+  m_Direction: 1
+  m_Center: {x: 0, y: 1.5, z: 0}
+--- !u!114 &1156934329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1156934324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd721461303600a448a4ef577446ae9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  maxHp: 45
+  Punched:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1156934325}
+        m_TargetAssemblyTypeName: UnityEngine.Animator, UnityEngine
+        m_MethodName: SetTrigger
+        m_Mode: 5
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: Punched
+          m_BoolArgument: 0
+        m_CallState: 2
+  Defeated:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 1156934324}
+        m_TargetAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+        m_MethodName: SetActive
+        m_Mode: 6
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1001 &1291419711
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -605,6 +677,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 71cfba419606349c98d887e553620c13, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1988191203}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 71cfba419606349c98d887e553620c13, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1988191206}
   m_SourcePrefab: {fileID: 100100000, guid: 71cfba419606349c98d887e553620c13, type: 3}
 --- !u!1 &1314915151
 GameObject:
@@ -1060,6 +1135,33 @@ MonoBehaviour:
   blockKeyCode: 122
   characterObj: {fileID: 1988191201}
   isBlocking: 1
+--- !u!54 &1988191206
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1988191201}
+  serializedVersion: 4
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1997503636
 GameObject:
   m_ObjectHideFlags: 0
